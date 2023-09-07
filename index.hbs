@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" type="png" href="images/siteicon/icon.jpeg">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Dhun</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function () {
+			if ($(window).scrollTop()) {
+				$('nav').addClass('black');
+			} else {
+				$('nav').removeClass('black');
+			}
+		})
+	</script>
+</head>
+
+<body>
+	<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><a href="/"><img src="images/siteicon/icon2.jpg" style="height:40px; width:80px;"
+						alt="logo"></a></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="/profile1">Profile</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="/customization">Customization</a></li>
+				<li><a href="/customization">Friend Suggestion</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img
+					src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="/login">Login</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote" style="color:white;">
+				<p style="margin-left:22%;">Music is a higher revelation </p>
+				<p style="margin-left:13%;">than all wisdom</p>
+				<p style="margin-left:30%;"> and philosophy</p>
+
+			</div>
+
+			<div class="newquote">
+
+				<p  style="margin-left:75px;">Music is an expression of human creativity and emotion </p>
+				<p  style="margin-left:20px;">  that transcends cultural and linguistic barriers. It is a  </p>
+				<p  style="margin-left:20px;">  medium  through which we can explore and communicate the  </p>
+				<p  style="margin-left:20px;"> complexities of the human experience, from joy and love to pain and loss. </p>
+
+				 
+				</div>
+
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="images/creator/roshan.jpeg" alt="Username">
+				<p>roshank9419</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+	<!-- Some Popular Subjects -->
+	<div class="title">
+		<span style="color:white;">Popular Artists</span>
+	</div>
+	<br><br>
+	<d class="course">
+		<div class="cbox">
+			<div class="edit"><img src="images/Artists/Harry Styles.jpeg"
+					style="height:150px; width:130px; border-radius:10px; "><a href="/Harry_Styles">Harry Styles</a>
+			</div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/The Weekend.jpeg"><a href="/The_Weekend">The Weekend</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/21 Savage.jpeg"><a href="/21_Savage">21 Savage</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/Drake.jpeg"><a href="/Drake">Drake</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/The 1975.png"><a href="/The_1975">The 1975</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/Justin Bieber.jpeg"><a href="/Justin">Justin Bieber</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/Diljit Dosanjh.jpeg"><a href="/DIljit_Dosanjh">Diljit Dosanjh</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/Shubh.jpeg"><a href="/Shubh">Shubh</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/Karan Aujla.jpeg"><a href="/Karan_Aujla">Karan Aujla</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/MC Stan.jpeg"><a href="/MC_Stan">MC Stan</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/Badshah!!!.jpeg"><a href="/Badshah">Badshah</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/AP Dhillon.jpeg"><a href="/Ap_Dhillon">Ap Dhillon</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/Charlie Puth.jpeg"><a href="/Charlie_Puth">Charlie Puth</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/King.jpeg"><a href="/King">King</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/Krsna.jpeg"><a href="/Kr$na">Kr$na</a></div>
+			<div class="edit"><img style="height:150px; width:130px border-radius:10px;"
+					src="images/Artists/Seedhe Maut.jpeg"><a href="/Seedhe_Maut">Seedhe Maut</a></div>
+			<div class="edit"><img style="height:150px; width:130px border-radius:10px;"
+					src="images/Artists/Sidhu Moose Wala.jpeg"><a href="/SidhuMoose_Wala">SidhuMoose Wala</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/Liam Payne.jpeg"><a href="/Liam_Payne">Liam Payne</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/Zayn.jpeg"><a href="/Zayn">Zayn</a></div>
+			<div class="edit"><img style="height:150px; width:130px; border-radius:10px;"
+					src="images/Artists/One Direction.jpeg"><a href="/One_Direction">One Direction</a></div>
+
+		</div>
+	</d>
+
+
+	<!-- PORTFOLIO -->
+	<div class="diffSection" id="portfolio_section">
+		<center>
+			<p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color:white;">Portfolio</p>
+		</center>
+		<div class="content">
+			<p style="color:white;">
+				“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your
+				attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try
+				ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”
+			</p>
+		</div>
+	</div>
+	<div class="extra">
+		<p>We're increasing this data every year</p>
+		<div class="smbox">
+			<span>
+				<center>
+					<div class="data">154</div>
+					<div class="det">Enrolled Students</div>
+				</center>
+			</span>
+			<span>
+				<center>
+					<div class="data">62</div>
+					<div class="det">Total Courses</div>
+				</center>
+			</span>
+			<span>
+				<center>
+					<div class="data">56</div>
+					<div class="det">Placed Students</div>
+				</center>
+			</span>
+			<span>
+				<center>
+					<div class="data">27</div>
+					<div class="det">Total Projects</div>
+				</center>
+			</span>
+		</div>
+	</div>
+
+
+	<!-- TEAM -->
+	<div class="diffSection" id="team_section">
+		<center>
+			<p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px; color:white;"> Creators</p>
+		</center>
+		<div class="totalcard">
+
+			{{!-- utkarsh !--}}
+
+			<div class="card">
+
+				<center>
+					<div class="card-title">Paras Manchanda</div>
+					<div id="detail">
+						<p>“ You can teach a student a lesson for a day; but if you can teach him to learn by creating
+							curiosity, he will continue the learning process as long as he lives “</p>
+						<div class="duty"></div>
+						<a href="https://www.linkedin.com/in/paras-manchanda-6b4845233/" target="_blank"><button
+								class="btn-roshan">Follow +</button></a>
+					</div>
+				</center>
+			</div>
+
+			{{!-- sasuke !--}}
+
+			<div class="card">
+
+				<center>
+					<div class="card-title">Paras Manchanda</div>
+					<div id="detail">
+						<p>“ You can teach a student a lesson for a day; but if you can teach him to learn by creating
+							curiosity, he will continue the learning process as long as he lives “</p>
+						<div class="duty"></div>
+						<a href="https://www.linkedin.com/in/paras-manchanda-6b4845233/" target="_blank"><button
+								class="btn-roshan">Follow +</button></a>
+					</div>
+				</center>
+			</div>
+
+			{{!-- ish !--}}
+
+			<div class="card">
+
+				<center>
+					<div class="card-title">Paras Manchanda</div>
+					<div id="detail">
+						<p>“ You can teach a student a lesson for a day; but if you can teach him to learn by creating
+							curiosity, he will continue the learning process as long as he lives “</p>
+						<div class="duty"></div>
+						<a href="https://www.linkedin.com/in/paras-manchanda-6b4845233/" target="_blank"><button
+								class="btn-roshan">Follow +</button></a>
+					</div>
+				</center>
+			</div>
+
+			{{!-- paras !--}}
+
+			<div class="card">
+
+				<center>
+					<div class="card-title">Paras Manchanda</div>
+					<div id="detail">
+						<p>“ You can teach a student a lesson for a day; but if you can teach him to learn by creating
+							curiosity, he will continue the learning process as long as he lives “</p>
+						<div class="duty"></div>
+						<a href="https://www.linkedin.com/in/paras-manchanda-6b4845233/" target="_blank"><button
+								class="btn-roshan">Follow +</button></a>
+					</div>
+				</center>
+			</div>
+		</div>
+
+
+
+
+		<!-- CONTACT US -->
+		<div class="diffSection" id="contactus_section">
+			<center>
+				<p style="font-size: 50px; padding: 100px">Contact Us</p>
+			</center>
+			<div class="csec"></div>
+			<div class="back-contact">
+				<div class="cc">
+					<form action="mailto:parasmanchanda790@gmail.com" method="post" enctype="text/plain">
+						<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name
+							<span class="imp">*</span></label><br>
+						<center>
+							<input type="text" name="" style="margin-right: 10px; width: 175px"
+								required="required"><input type="text" name="lname" style="width: 175px"
+								required="required"><br>
+						</center>
+						<label>Email <span class="imp">*</span></label><br>
+						<input type="email" name="mail" style="width: 100%" required="required"><br>
+						<label>Message <span class="imp">*</span></label><br>
+						<input type="text" name="message" style="width: 100%" required="required"><br>
+						<label>Additional Details</label><br>
+						<textarea name="addtional"></textarea><br>
+						<button type="submit" id="csubmit">Send Message</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- FEEDBACK -->
+		<div class="title2" id="feedBACK">
+			<span>Give Feedback</span>
+			<div class="shortdesc2">
+				<p>Please share your valuable feedback to us</p>
+			</div>
+		</div>
+
+		<div class="feedbox">
+			<div class="feed">
+				<form action="mailto:parasmanchanda790@gmail.com" method="post" enctype="text/plain">
+					<label>Your Name</label><br>
+					<input type="text" name="" class="fname" required="required"><br>
+					<label>Email</label><br>
+					<input type="email" name="mail" required="required"><br>
+					<label>Additional Details</label><br>
+					<textarea name="addtional"></textarea><br>
+					<button type="submit" id="csubmit">Send Message</button>
+				</form>
+			</div>
+		</div>
+
+
+		<!-- FOOTER -->
+		{{>footer}}
+</body>
+
+</html>
