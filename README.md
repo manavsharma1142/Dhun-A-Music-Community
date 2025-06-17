@@ -23,31 +23,9 @@ The project uses a full-stack JavaScript architecture, combining modern UI techn
 - Dynamic routing and content rendering using Handlebars
 - Clean and responsive UI layout
 
-## 📁 Project Structure
-
-Dhun-A-Music-Community/
-├── routes/
-├── views/ (Handlebars templates)
-├── public/
-├── models/ (MongoDB schemas)
-├── app.js
-├── package.json
-└── README.md
-
 ## 💡 Why This Project?
 
 Dhun was created as an exploration of how music connects people. Instead of building just another music listing app, the goal was to foster community and relatability based on musical choices. It also provided a good opportunity to sharpen full-stack skills using real-world components like user login systems, templating, and database design.
 
-## 🚀 How to Run Locally
-
-1. Clone the repository:
-git clone https://github.com/manavsharma1142/Dhun-A-Music-Community.git
-cd Dhun-A-Music-Community
-
-2. Install dependencies:
-npm install
-
-4. Open in your browser at:
-http://localhost:3000
 
 
